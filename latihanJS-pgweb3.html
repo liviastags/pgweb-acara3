@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container"></div>
+        <div class="card mt-4">
+            <div class="card-header text-center">
+                <h1>Calculator</h1>
+            </div>
+            <div class="card-body">
+                Hasil: <span id="Hasil"></span>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        let x = 5;
+        let y = 10.5;
+        let nama = "Enya";
+        let hasmoney = true;
+        let mahasiswa = ["Ariel", "Aslam", "Andre"]
+
+        //object
+        let orang = {
+            nama: "Ariel",
+            umur: 20,
+            jurusan: "Aerospace Engineering"
+        };
+
+        //date
+        let tanggal = new Date();
+        let tahun = tanggal.getFullYear();
+        let bulan = tanggal.getMonth();
+
+        document.getElementById("Hasil").innerHTML = tahun;
+    </script>
+</body>
+</html>
